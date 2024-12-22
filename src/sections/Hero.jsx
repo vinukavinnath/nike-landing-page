@@ -12,8 +12,8 @@ function Hero() {
     <section id='home' className='max-container w-full flex flex-col xl:flex-row'>
       <div className='padding-x xl:w-1/2 lg:justify-center z-30'>
         <h2 className='text-2xl text-primary font-light mt-32'>Our Summer Collections</h2>
-        <h1 className='text-7xl sm:text-8xl my-12 font-medium leading-tight sm:leading-tight'>
-          <span className='xl:whitespace-nowrap bg-white xl:pr-5 xl:py-5'>The New Arrival</span>
+        <h1 className='text-7xl font-palanquin sm:text-8xl my-12 font-medium sm:leading-tight'>
+          <span className='xl:whitespace-nowrap lg:bg-white xl:pr-5 xl:py-5'>The New Arrival</span>
           <br />
           <span className='text-primary'>Nike </span>Shoes
         </h1>
@@ -21,7 +21,7 @@ function Hero() {
         <Button />
         <div className='w-full flex gap-12 my-5 flex-wrap'>
           {statistics.map((item) => (<div>
-            <p className='text-3xl sm:text-5xl font-medium'>{item.value}</p>
+            <p className='text-3xl sm:text-4xl font-medium'>{item.value}</p>
             <p className='subtitle'>{item.label}</p>
           </div>))}
         </div>

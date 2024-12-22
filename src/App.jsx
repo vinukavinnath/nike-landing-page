@@ -1,5 +1,5 @@
 import Nav from "./components/Nav"
-import Hero from "./sections/Hero"
+import {Hero, PopularProducts} from './sections/sections'
 
 export default function App() {
   return (
@@ -10,6 +10,7 @@ export default function App() {
       <Hero/>
       
       {/* Popular Products */}
+      <PopularProducts/>
       
       {/* Super Quality */}
       {/* Services */}

@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'palanquin':['Palanquin', 'sans-serif'],
+        'poppins':['Poppins', 'sans-serif'],
+        'montserrat':['Montserrat', 'sans-serif'],
+      },
       colors:{
         'primary':'#FF6452',
         'primary-hover':'#fa4934'
