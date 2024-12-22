@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .max-container{
+        max-width: 1440px;
+        margin:0 auto;
+    }
+
+    .shoe-background{
+        @apply bg-[url('./assets/images/thumbnail-background.svg')] bg-cover bg-center
+    }
+
+    .padding-x {
+      @apply px-10 sm:px-16
+    }
+
+    .subtitle{
+        @apply text-xl text-gray-500
+    }
+}

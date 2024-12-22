@@ -6,8 +6,9 @@ import hamburger from '../assets/icons/hamburger.svg'
 
 function Nav() {
     return (
-        <header className='px-14 py-8 w-full'>
-            <nav className='flex items-center justify-between w-full'>
+        <main className='relative'>
+        <header className='max-container absolute px-10 py-8 w-full z-10 justify-between flex'>
+            <nav className='flex items-center w-full'>
                 {/* Logo */}
                 <a href="">
                     <img src={headerLogo} alt="Brand Logo" width={150} />
@@ -15,14 +16,14 @@ function Nav() {
 
                 {/* Navigation Links */}
                 <div className='w-full flex max-lg:hidden text-xl leading-normal'>
-                    <ul className='flex gap-x-10 justify-center w-5/6 '>
+                    <ul className='flex gap-x-20 justify-center w-10/12 '>
                         {navLinks.map((link) => (
                             <li className='text-slate-500' key={link.label}>
                                 <a href={link.href}>{link.label}</a>
                             </li>
                         ))}
                     </ul>
-                    <a className='w-1/6 text-slate-800 text-center' href="#">Sign Up</a>
+                    <a className='w-2/12 text-slate-800 text-right' href="#">Sign Up or Explore</a>
                 </div>
 
                 {/* Hamburger Icon */}
@@ -32,8 +33,8 @@ function Nav() {
                     </a>
                 </div>
             </nav>
-
         </header>
+        </main>
     )
 }
 

@@ -1,4 +1,5 @@
 import Nav from "./components/Nav"
+import Hero from "./sections/Hero"
 
 export default function App() {
   return (
@@ -6,6 +7,7 @@ export default function App() {
       {/* Nav */}
       <Nav/>
       {/* Hero */}
+      <Hero/>
       
       {/* Popular Products */}
       
