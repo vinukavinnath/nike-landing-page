@@ -20,7 +20,7 @@ function Offer() {
                         Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the loftiest expectations. Your journey with us is nothing short of exceptional.
                     </p>
                     <div className='flex gap-x-6 justify-center lg:justify-start text-center'>
-                        <Button>View Details</Button>
+                        <Button>Shop Now</Button>
                         <SecondaryButton>Learn more</SecondaryButton>
                     </div>
                 </div>

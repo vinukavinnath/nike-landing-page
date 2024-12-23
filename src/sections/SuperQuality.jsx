@@ -8,7 +8,7 @@ function SuperQuality() {
             <div className='flex w-full flex-col lg:flex-row'>
 
                 {/* Text Section */}
-                <div className='w-full lg:w-1/2 content-center pe-5'>
+                <div className='w-full lg:w-1/2 content-center pe-5 flex flex-col items-center md:items-start'>
                     <h1 className='section-heading py-4'>We Provide You
                         <span className='text-primary'> Premium Quality </span>Shoes
                     </h1>

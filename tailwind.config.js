@@ -13,7 +13,8 @@ export default {
       },
       colors:{
         'primary':'#FF6452',
-        'primary-hover':'#fa4934'
+        'primary-hover':'#fa4934',
+        'background':'#F5F6FF',
       },
     },
   },
