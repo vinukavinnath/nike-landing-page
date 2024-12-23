@@ -1,39 +1,35 @@
 import Nav from "./components/Nav"
-import Feedback from "./sections/Feedback"
-import Footer from "./sections/Footer"
-import Offer from "./sections/Offer"
-import {Hero, PopularProducts, Newsletter} from './sections/sections'
-import Services from "./sections/Services"
-import SuperQuality from "./sections/SuperQuality"
+import { Hero, PopularProducts, Newsletter, Feedback, Footer, Offer, SuperQuality, Services } from './sections/sections'
+
 
 export default function App() {
   return (
     <main>
       {/* Nav */}
-      <Nav/>
+      <Nav />
       {/* Hero */}
-      <Hero/>
-      
+      <Hero />
+
       {/* Popular Products */}
-      <PopularProducts/>
-      
+      <PopularProducts />
+
       {/* Super Quality */}
-      <SuperQuality/>
+      <SuperQuality />
 
       {/* Services */}
-      <Services/>
+      <Services />
 
       {/* Special Offers */}
-      <Offer/>
+      <Offer />
 
       {/* Customer Feedback */}
-      <Feedback/>
+      <Feedback />
 
       {/* Subscribe */}
-      <Newsletter/>
+      <Newsletter />
 
       {/* Footer */}
-      <Footer/>
+      <Footer />
 
     </main>
   )
