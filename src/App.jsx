@@ -1,4 +1,5 @@
 import Nav from "./components/Nav"
+import Offer from "./sections/Offer"
 import {Hero, PopularProducts} from './sections/sections'
 import Services from "./sections/Services"
 import SuperQuality from "./sections/SuperQuality"
@@ -16,9 +17,13 @@ export default function App() {
       
       {/* Super Quality */}
       <SuperQuality/>
+
       {/* Services */}
       <Services/>
+
       {/* Special Offers */}
+      <Offer/>
+
       {/* Customer Feedback */}
       {/* Subscribe */}
       {/* Footer */}
