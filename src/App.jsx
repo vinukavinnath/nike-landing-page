@@ -1,7 +1,8 @@
 import Nav from "./components/Nav"
 import Feedback from "./sections/Feedback"
+import Footer from "./sections/Footer"
 import Offer from "./sections/Offer"
-import {Hero, PopularProducts} from './sections/sections'
+import {Hero, PopularProducts, Newsletter} from './sections/sections'
 import Services from "./sections/Services"
 import SuperQuality from "./sections/SuperQuality"
 
@@ -27,8 +28,12 @@ export default function App() {
 
       {/* Customer Feedback */}
       <Feedback/>
+
       {/* Subscribe */}
+      <Newsletter/>
+
       {/* Footer */}
+      <Footer/>
 
     </main>
   )
