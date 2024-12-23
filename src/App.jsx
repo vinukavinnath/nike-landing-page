@@ -1,5 +1,7 @@
 import Nav from "./components/Nav"
 import {Hero, PopularProducts} from './sections/sections'
+import Services from "./sections/Services"
+import SuperQuality from "./sections/SuperQuality"
 
 export default function App() {
   return (
@@ -13,7 +15,9 @@ export default function App() {
       <PopularProducts/>
       
       {/* Super Quality */}
+      <SuperQuality/>
       {/* Services */}
+      <Services/>
       {/* Special Offers */}
       {/* Customer Feedback */}
       {/* Subscribe */}

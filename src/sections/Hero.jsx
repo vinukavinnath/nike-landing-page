@@ -3,6 +3,7 @@ import { Button, ShoeCard } from '../components/components'
 import { shoes, statistics } from '../constants/data'
 import background from '../assets/images/thumbnail-background.svg'
 import { bigShoe1, bigShoe2, bigShoe3 } from '../assets/images/images'
+import { arrowRight } from '../assets/icons/icons'
 
 
 
@@ -18,9 +19,10 @@ function Hero() {
           <span className='text-primary'>Nike </span>Shoes
         </h1>
         <h3 className='subtitle'>Discover stylish Nike arrivals, quality comfort, and innovation for your active life.</h3>
-        <Button />
+        <Button img={arrowRight}>Shop Now</Button>
         <div className='w-full flex gap-12 my-5 flex-wrap'>
-          {statistics.map((item) => (<div>
+          {statistics.map((item) => (
+            <div className='my-5'>
             <p className='text-3xl sm:text-4xl font-medium'>{item.value}</p>
             <p className='subtitle'>{item.label}</p>
           </div>))}

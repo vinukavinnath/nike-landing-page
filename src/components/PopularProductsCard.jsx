@@ -5,7 +5,7 @@ function PopularProductsCard({ imgURL, name, price, rating }) {
     return (
         <div>
             <div className='shoe-background flex flex-1 flex-col w-full mt-6 rounded-full shadow-xl'>
-                <img src={imgURL} alt={name} />
+                <img className='' src={imgURL} alt={name} />
 
             </div>
             <div className='ps-2'>
