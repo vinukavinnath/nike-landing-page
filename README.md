@@ -1,5 +1,7 @@
 # Nike Landing Page
 
+![Imgur](https://i.imgur.com/1woKqeI.png)
+
 This is a Nike-inspired landing page created using **React.js** and **Tailwind CSS**. The project is designed as a learning exercise to explore the best practices in building responsive and modern UIs using React and Tailwind CSS.
 
 The project has been deployed on **Vercel**. Check it out [here](https://nike-shop-vinuka.vercel.app/).
